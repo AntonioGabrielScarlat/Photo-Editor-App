@@ -1,0 +1,185 @@
+body {
+  background-color: rgb(243, 255, 182);
+}
+
+h1 {
+  color: rgb(0, 124, 105);
+  text-align: center;
+  font-family: 'Poppins';
+  font-size: 42px;
+}
+
+p {
+  font-family: 'Poppins';
+  font-size: 20px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.titlu {
+  position: relative;
+  left: 150px;
+  bottom: 77px;
+}
+
+div.baraComenzi {
+  position: relative;
+  margin-left: 15%;
+  margin-right: 5%;
+  bottom: 50px;
+}
+
+div.butoaneLangaCanvas {
+  position: relative;
+  margin-left: 75%;
+  bottom: 240px;
+}
+
+div.elementeVizibileLaClick {
+  position: relative;
+  margin-left: 75%;
+  top:50px;
+}
+
+div.canvasArea {
+  position: relative;
+  bottom: 30px;
+}
+
+.button {
+  background-color: rgb(22, 172, 137); 
+  border: 5px solid rgb(0, 124, 105);
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 4px;
+  cursor: pointer;
+  font-family: 'Poppins';
+  border-radius: 12px;
+}
+
+.button:hover {
+  background-color: rgb(0, 124, 105);
+  box-shadow: 0px 0px 32px 0 rgb(22, 172, 137);
+}
+
+.buttonHistograma{
+  border: 5px solid rgb(0, 0, 0);
+ color: black;
+ padding: 5px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 20px;
+ cursor: pointer;
+ font-family: 'Poppins';
+ margin-left: 5%;
+ margin-right: 5%;
+ bottom: 50px;
+ border-radius: 12px;
+}
+
+.buttonGrayscale{
+  background-color: rgb(155, 155, 155); 
+   border: 5px solid rgb(70, 70, 70);
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: 'Poppins';
+  margin-left: 5%;
+  margin-right: 5%;
+  bottom: 50px;
+  border-radius: 12px;
+}
+
+.buttonGrayscale:hover {
+  background-color: rgb(70, 70, 70);
+  box-shadow: 0px 0px 32px 0 rgb(155, 155, 155); 
+}
+
+.buttonNegativ{
+  background-color: rgb(66, 90, 199);
+  border: 5px solid rgb(8, 19, 177);
+ color: white;
+ padding: 5px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 20px;
+ cursor: pointer;
+ font-family: 'Poppins';
+ margin-left: 5%;
+ margin-right: 5%;
+ bottom: 50px;
+ border-radius: 12px;
+}
+
+.buttonNegativ:hover {
+  background-color: rgb(8, 19, 177);
+  box-shadow: 0px 0px 32px 0 rgb(66, 90, 199);
+}
+
+.buttonDelete {
+  background-color: rgb(207, 61, 69); 
+  border: 5px solid rgb(121, 0, 6);
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'Poppins';
+  margin: 4px 4px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.buttonDelete:hover {
+  background-color: rgb(121, 0, 6);
+  box-shadow: 0px 0px 32px 0 rgb(207, 61, 69);
+}
+
+.buttonSpecial {
+  background-color: rgb(161, 2, 161); 
+  border: 5px solid rgb(83, 13, 80);
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'Poppins';
+  margin: 4px 4px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.buttonSpecial:hover {
+  background-color: rgb(83, 13, 80);
+  box-shadow: 0px 0px 32px 0 rgb(161, 2, 161);
+}
+
+input[type="file"] {
+  display: none;
+}
+
+#textIntrodus,dimensiune,culoare,efect{
+font-family: 'Poppins';
+}
+.font{
+font-family: 'Poppins';
+}
+
+
+

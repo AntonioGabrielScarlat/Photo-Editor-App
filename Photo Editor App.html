@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="4_1091_SCARLAT_ANTONIO_GABRIEL.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins'>
+</head>
+    
+<body>
+
+<h1>Photo Editor</h1>
+  
+  <div class="titlu">
+  <img src="media/edit-icon.png" width="35" height="35" class="center">
+  </div>
+  
+  <div class="baraComenzi">
+  <label class="buttonSpecial">
+    <input type="file" id="fileinput" accept = "image/*">
+    <img src="media/upload-icon.png" width="24" height="24">  
+    Upload Photo
+</label>
+  <button class="button" onclick="crop()"><img src="media/crop-icon.png" width="24" height="24"> Crop Photo</button>
+  <button class="button" onclick="showAddTextOptions()"><img src="media/text-icon.png" width="24" height="24"> Add Text</button>
+  <button class="button" onclick="showAddEffectOptions()"><img src="media/effects-icon.png" width="24" height="24"> Apply Effects</button>
+  <button class="button" onclick="eraseSection()"><img src="media/erase-icon.png" width="24" height="24"> Erase Photo Section</button>
+</div>
+
+<div id="adaugaText" class="elementeVizibileLaClick">
+  <label for="textIntrodus" style="font-family:'Poppins'; size:24px">Text:</label>
+  <input type="text" id="textIntrodus"><br><br>
+  <label for="dimensiune" style="font-family:'Poppins'; size:24px">Font Size:</label>
+  <select id="dimensiune">
+    <option value="14" class="font">14</option>
+    <option value="18" class="font">18</option>
+    <option value="22" class="font">22</option>
+    <option value="26" class="font">26</option>
+  </select>
+  <label for="culoare" style="font-family:'Poppins'; size:24px">Color:</label>
+  <input type="color" id="culoare" value="#FFFFFF"><br><br>
+</div>
+
+<div id="adaugaEfect" class="elementeVizibileLaClick">
+  <button id="negativeEffectButton" class="buttonNegativ" onclick="negativeEffect()">Negative</button>
+  <button id="grayscaleEffectButton" class="buttonGrayscale" onclick="grayscaleEffect()">Grayscale</button>
+</div>
+
+<button id="colorButton" class="buttonHistograma" >Current Color</button>
+<canvas id="myCanvas" onclick="addText(event)" onmousedown="getInitialPoint(event)" onmouseup="getFinalPoint(event)" onmousemove="getContinousPoints(event)" 
+style="width: 600px;height: 400px;border:3px solid #000000;" class="center"></canvas>
+
+<div class="butoaneLangaCanvas">
+  <button class="buttonSpecial" onclick="downloadCanvas()"><img src="media/download-icon.png" width="24" height="24"> Download Photo</button>
+  <button class="buttonDelete" onclick="deleteImage()"><img src="media/delete-icon.png" width="24" height="24"> Delete Photo</button>
+</div>
+
+<script src="4_1091_SCARLAT_ANTONIO_GABRIEL.js"></script>
+</body>
+</html>
